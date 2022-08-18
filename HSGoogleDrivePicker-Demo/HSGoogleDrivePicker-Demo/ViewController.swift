@@ -28,7 +28,12 @@ class ViewController: UIViewController, UINavigationBarDelegate {
     @IBAction func pickFile(_ sender: Any) {
 
         let picker = HSDrivePicker()
+        picker.modalPresentationStyle = .fullScreen
+        picker.view.backgroundColor = UIColor.white
+        picker.visibleViewController?.navigationController?.navigationBar.tintColor = UIColor.black
         
+       
+       
         picker.pick(from: self) {
             (manager, file) in
             
