@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7DC94228AE6520002D2DCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7DC94128AE6520002D2DCC /* GoogleService-Info.plist */; };
 		D433FFF4232900390091D0E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D433FFF3232900390091D0E8 /* GoogleService-Info.plist */; };
 		D44EDE681F41CF35006E9179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EDE671F41CF35006E9179 /* AppDelegate.swift */; };
 		D44EDE6B1F41CF35006E9179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EDE6A1F41CF35006E9179 /* ViewController.swift */; };
@@ -17,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F309F7928AE53E800FC05BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F7DC94128AE6520002D2DCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38C0AE7EB58F855AF24FC39A /* Pods_HSGoogleDrivePicker_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSGoogleDrivePicker_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0362764907BF2C5AD3E8308 /* Pods-HSGoogleDrivePicker-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSGoogleDrivePicker-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSGoogleDrivePicker-Demo/Pods-HSGoogleDrivePicker-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D433FFF3232900390091D0E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -81,7 +82,7 @@
 		D44EDE621F41CF35006E9179 /* HSGoogleDrivePicker-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				0F309F7928AE53E800FC05BE /* GoogleService-Info.plist */,
+				0F7DC94128AE6520002D2DCC /* GoogleService-Info.plist */,
 				D44EDE671F41CF35006E9179 /* AppDelegate.swift */,
 				D44EDE6A1F41CF35006E9179 /* ViewController.swift */,
 				D44EDE6C1F41CF35006E9179 /* Main.storyboard */,
@@ -165,6 +166,7 @@
 			files = (
 				D44EDE731F41CF35006E9179 /* LaunchScreen.storyboard in Resources */,
 				D433FFF4232900390091D0E8 /* GoogleService-Info.plist in Resources */,
+				0F7DC94228AE6520002D2DCC /* GoogleService-Info.plist in Resources */,
 				D44EDE701F41CF35006E9179 /* Assets.xcassets in Resources */,
 				D44EDE6E1F41CF35006E9179 /* Main.storyboard in Resources */,
 			);
@@ -396,7 +398,7 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "HSGoogleDrivePicker-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hobbyistsoftware.drivepicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Edgar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -411,7 +413,7 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "HSGoogleDrivePicker-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hobbyistsoftware.drivepicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Edgar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
